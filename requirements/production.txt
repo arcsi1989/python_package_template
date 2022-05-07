@@ -19,7 +19,6 @@ plotly
 
 # Configuration
 python-configuration
-cerberus
 
 # Secrets management
 python-dotenv

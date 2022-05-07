@@ -64,11 +64,11 @@ setup(name=NAME,
       long_description_content_type='text/markdown',
       download_url=DOWNLOAD_URL,
       project_urls=PROJECT_URLS,
-      python_requires='>3.8.0',
+      python_requires='>=3.8.0',
       install_requires=INSTALL_REQUIREMENTS,
       entry_points={
           'console_scripts': [
-              'src = src.cli.cli:src_cli',  # TODO change actual package name
+              'ppt = src.cli.cli:src_cli',  # TODO change actual package name from the 'ppt'
           ]
       },
       include_package_data=True,
