@@ -1,0 +1,23 @@
+# -------------- Requirements for development --------------- #
+# Production, testing and documentation packages
+-r production.txt
+-r testing.txt
+-r documentation.txt
+
+# Data science
+
+# Visualization
+
+# Machine learning
+
+# Jupyter
+jupyter>=1.0.0
+jupyterlab
+
+# Utilities
+pyyaml>=5.3.1
+dill>=0.3.2
+argh>=0.26.2
+
+# Program profiling
+cprofilev

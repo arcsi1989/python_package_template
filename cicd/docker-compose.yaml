@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  template_package:
+    build: . # Where to find the Dockerfile
+    image: "python-package-template"
+    environment:
+      EXAMPLE_AUTHOR: "Tolstoi, Leo"
+      EXAMPLE_TITLE: "War and Peace"
+      EXAMPLE_URL: "https://www.gutenberg.org/files/2600/2600-0.txt"

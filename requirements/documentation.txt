@@ -1,0 +1,14 @@
+# -------------- Requirements for documentation --------------- #
+# Production packages
+-r production.txt
+
+# Documentation
+sphinx>=3.3.0
+pydata-sphinx-theme>=0.4.1
+recommonmark>=0.6.0
+Jinja2>=2.11
+rst2pdf
+
+# UML diagrams
+pylint
+graphviz

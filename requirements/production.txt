@@ -1,0 +1,45 @@
+# -------------- Requirements for production --------------- #
+# Data storage / compression
+# pyarrow
+# python-snappy
+# fastparquet
+
+# Data science / array manipulation
+numpy
+scipy
+pandas
+# vaex
+
+# Machine Learning
+scikit-learn
+
+# Visualization
+matplotlib
+plotly
+
+# Configuration
+python-configuration
+cerberus
+
+# Secrets management
+python-dotenv
+
+# Performance profiling
+memory_profiler
+
+# Utils
+pytz
+psutil
+tqdm
+click
+nbformat
+termcolor
+
+# ------------------ COMMENTS -------------------------- #
+# Pre-steps for installing python-snappy
+# Ubuntu:
+# - sudo apt-get install libsnappy-dev
+# MacOS
+# - brew install snappy
+# - export LDFLAGS="-L/usr/local/opt/openssl/lib -L/usr/local/opt/snappy/lib"
+# - export CPPFLAGS="-I/usr/local/opt/openssl/include -I/usr/local/opt/snappy/include"
